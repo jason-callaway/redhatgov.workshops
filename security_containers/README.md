@@ -26,7 +26,16 @@ source env.sh
 
 This repo also requires that you have Ansible installed on your local machine. For the most upto date methods of installing Ansible for your operating system [check here](http://docs.ansible.com/ansible/intro_installation.html).
 
-This repo also requires that Terraform be installed if you are using the aws.infra.terraform role. For the most upto data methods of installing Terraform for your operating system [check here](https://www.terraform.io/downloads.html).
+This repo also requires that Terraform be installed if you are using the aws.infra.terraform role. For the most up to data methods of installing Terraform for your operating system [check here](https://www.terraform.io/downloads.html).
+
+Note that you may need to initialize Terrafrom from the `.redhatgov` directory, i.e.:
+
+```
+cd .redhatgov
+terraform init
+```
+
+This workshop has been tested with Terraform v0.10.7.
 
 ## group_vars/all
 
